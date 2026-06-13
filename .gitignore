@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+*.so
+.ipynb_checkpoints/
+
+# Keep large raw datasets out of Git. Split archives are stored in data_archives/.
+datasets/
+

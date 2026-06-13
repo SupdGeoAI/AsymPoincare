@@ -1,0 +1,11 @@
+version : seq_10_pc_sym
+data_path : ../../datasets/sequence_sym/seq_10
+window_size : 3
+nneg : 50
+batch_size : 1280
+emb_dimension : 2
+epochs : 100
+lr : 0.001
+lr_exp_scheduler : 0.96
+seed : 1
+epsilon : 1e-05

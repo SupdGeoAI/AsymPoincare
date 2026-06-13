@@ -1,0 +1,12 @@
+version : seq_10_pc_asym
+data_path : ../../datasets/sequence_asym/seq_10
+lr : 0.001
+r: 0.9
+window_size : 5
+nneg : 50
+batch_size : 1280
+emb_dimension : 2
+epochs : 100
+lr_exp_scheduler : 0.96
+seed : 1
+epsilon : 1e-05
