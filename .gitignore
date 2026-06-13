@@ -4,6 +4,5 @@ __pycache__/
 *.so
 .ipynb_checkpoints/
 
-# Keep large raw datasets out of Git. Split archives are stored in data_archives/.
-datasets/
-
+# Legacy split archives are not needed when datasets/ is committed directly.
+data_archives/
